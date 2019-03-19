@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     width: 1020px;
     height: 1732px;
@@ -54,11 +58,12 @@ ul {
     list-style-type: disc;
 }
 
-ul img {
+ul li img {
     position: relative;
     top: -15px;
     left: -38px;
 }
+
 span {
     position: absolute;
     width: 2px;
@@ -415,14 +420,9 @@ p {
     flex-wrap: nowrap;
 }
 
-.icons img {
-    filter: grayscale(100%);
-    opacity: 0.5;
-}
-
-.icons img:hover {
-    filter: none;
-    opacity: 1;
+.icons a{
+    width: 24px;
+    height: 24px;
 }
 
 
@@ -518,7 +518,7 @@ fieldset {
     border: none;
 }
 
-fieldset h1{
+fieldset h2{
     position: absolute;
     top: 50px;
     left: -2px;
@@ -562,6 +562,11 @@ button {
     color: rgba(215, 252, 245, 255);
     cursor: pointer;
     letter-spacing: -0.5px;
+}
+
+button:hover {
+    background-color: rgba(215, 252, 245, 255);
+    color: #2eb398;
 }
 
 form p {

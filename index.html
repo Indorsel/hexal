@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
@@ -16,19 +16,19 @@
         <h1>Hexal</h1>
         <nav>
             <ul>
-                <li class="first-li"><a href="#">Portfolio</a></li>
+                <li class="first-li"><a href="#portfolio">Portfolio</a></li>
                 <li class="second-li"><span></span></li>
-                <li class="third-li"><a href="#">about</a></li>
-                <img src="./assets/Logo@1X.png">
-                <li class="fourth-li"><a href="#">Blog</a></li>
+                <li class="third-li"><a href="#about">about</a></li>
+                <li><a href="./index.html"><img src="./assets/Logo@1X.png" alt=""></a></li>
+                <li class="fourth-li"><a href="#blog">Blog</a></li>
                 <li class="fifth-li"><span></span></li>
-                <li class="sixth-li"><a href="#">get in touch</a></li>
+                <li class="sixth-li"><a href="#get_in_touch">get in touch</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="top_line first"></div>
+        <div class="top_line first" id="portfolio"></div>
         <div class="top_line second"></div>
 
         <section class="hexagon_container">
@@ -121,7 +121,7 @@
         </div>
        <div class="bottom_line"></div>
 
-        <section class="blog">
+        <section class="blog" id="about">
                 <article>
                     <div class="author" title="Smith Anderson"></div>
                     <div class="text_in_blog">
@@ -132,13 +132,13 @@
                             rhon<br>cus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor,
                             nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
                     </div>
-                    <div class="icons">
-                        <a href="https://www.facebook.com/" target="_blank"><img src="./assets/icons/Facebook@1X.png" alt="Facebook" width="24px" height="24px"></a>
-                        <a href="https://www.twitter.com/" target="_blank"><img src="./assets/icons/Twitter@1X.png" alt="Twitter" width="24px" height="24px"></a>
-                        <a href="https://plus.google.com/" target="_blank"><img src="./assets/icons/Google@1X.png" alt="Google+" width="24px" height="24px"></a>
-                        <a href="https://www.pinterest.com/" target="_blank"><img src="./assets/icons/Pinterest@1X.png" alt="Pinterest" width="24px" height="24px"></a>
-                        <a href="https://www.linkedin.com/" target="_blank"><img src="./assets/icons/Linkedin@1X.png" alt="Linkedin" width="24px" height="24px"></a>
-                        <a href="https://www.dribbble.com/" target="_blank"><img src="./assets/icons/Dribbble@1X.png" alt="Dribbble" width="24px" height="24px"></a>
+                    <div class="icons" id="blog">
+                        <a title="https://www.facebook.com/" href="https://www.facebook.com/" target="_blank"><img src="./assets/icons/Facebook@1X.png" alt="Facebook"></a>
+                        <a title="https://www.twitter.com/" href="https://www.twitter.com/" target="_blank"><img src="./assets/icons/Twitter@1X.png" alt="Twitter"></a>
+                        <a title="https://plus.google.com/" href="https://plus.google.com/" target="_blank"><img src="./assets/icons/Google@1X.png" alt="Google+"></a>
+                        <a title="https://www.pinterest.com/" href="https://www.pinterest.com/" target="_blank"><img src="./assets/icons/Pinterest@1X.png" alt="Pinterest"></a>
+                        <a title="https://www.linkedin.com/" href="https://www.linkedin.com/" target="_blank"><img src="./assets/icons/Linkedin@1X.png" alt="Linkedin"></a>
+                        <a title="https://www.dribbble.com/" href="https://www.dribbble.com/" target="_blank"><img src="./assets/icons/Dribbble@1X.png" alt="Dribbble"></a>
                     </div>
                 </article>  
         </section>
@@ -148,8 +148,8 @@
         <div class="line_in_form first"></div>
         <section class="form">
             <form action="#" class="touch_form">
-                <fieldset>
-                    <h1>Get In Touch</h1>
+                <fieldset id="get_in_touch">
+                    <h2>Get In Touch</h2>
                     <h3>In order to get in touch use the contact form below:</h3>
                     <input type="text" placeholder="Name (Required)" required>
                     <input type="email" placeholder="Email (Required)" required>
@@ -168,11 +168,9 @@
                     <p class="email">info@hexalcorp.com</p>
                 </div>
                 <div class="contacts">
-                    <div><img src="./assets/icons/location@1X.png" style="position: absolute; top: 297px; left: -8px;"></div>
-                    <div><a href="tel:+ 3528 331 86 35"><img src="./assets/icons/phone@1X.png"
-                                style="position: absolute; top: 318px; left: -10px;"></a></div>
-                    <div><a href="mailto:info@hexalcorp.com"><img src="./assets/icons/mail@1X.png"
-                                style="position: absolute; top: 341px; left: -11px;"></a></div>
+                    <div><img src="./assets/icons/location@1X.png" style="position: absolute; top: 297px; left: -8px;" alt=""></div>
+                    <div><a title="Call" href="tel:+35283318635"><img src="./assets/icons/phone@1X.png" style="position: absolute; top: 318px; left: -10px;" alt=""></a></div>
+                    <div><a title="Mail to" href="mailto:info@hexalcorp.com"><img src="./assets/icons/mail@1X.png" style="position: absolute; top: 341px; left: -11px;" alt=""></a></div>
                 </div>
                 <button type="submit">Send</button>
     
